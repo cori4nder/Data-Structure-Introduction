@@ -1,0 +1,13 @@
+*COMPILAÇÃO DE CÓDIGOS EM C*
+
+gcc //chama o compilador
+gcc -c //arquivos abstratos sem main
+gcc <program.c> -o //gera uma saída binária
+
+--
+gcc <program.c> -o diretório/<nome_do_programa.o> //redireciona binário para diretório especificado
+--
+gcc -c <program.c> -o diretório/<nome_do_programa.o> //'' 
+--
+
+gcc -c <programa.c> -I include/ -o diretório/<nome_do_programa.o> //Pesquisa dentro de um diretório arquivos de inclusão através do I
