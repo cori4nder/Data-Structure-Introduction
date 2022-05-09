@@ -1,4 +1,4 @@
-*COMPILAÇÃO DE CÓDIGOS EM C*
+*COMPILAÇÃO - TAD*
 
 gcc //chama o compilador
 gcc -c //arquivos abstratos sem main
